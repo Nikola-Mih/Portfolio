@@ -1,0 +1,22 @@
+body {
+	background-image: url("horizonzd.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Bebas Neue', cursive;
+	
+	font-size: 15px;
+}
+label {
+	color: #FF000F;
+}
+button {
+	background-color:#27251F;
+	color:#FF000F;
+	border: solid;
+	border-color: #FF000F;
+	padding: 5px;
+}
+.form {
+	padding: 100px;
+	margin: 100px;
+}

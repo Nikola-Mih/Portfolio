@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>One Tap Games</title>
+	<meta charset="utf-8">
+<!-- Ovo je link za bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<!-- Link za CSS-->
+<link rel="stylesheet" type="text/css" href="Style.css">
+
+
+
+<!-- Ovo je link za google fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono&display=swap" rel="stylesheet">
+
+<!-- Link za font awesome shoping cart ikonicu-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" /> 
+
+<!-- Link za font awesome social media ikonice-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Korpa.js-->
+<script type="text/javascript" src="korpa.js" async></script>
+
+
+</head>
+<body>
+	<!-- Link za JS skript-->
+	<script src="Script.js"></script>
+		
+
+<!-- Pocetak headera-->
+        <header id="header">
+            
+
+            <!-- Navigacija-->
+            <nav class="navbar navbar-expand-lg navbar-dark Boja-Druga-bg" id="navigacija">
+
+                <!--Ovde ide logo -->
+                <a href="#"><img src="onetaplogo.png"></a>  <a class="navbar-brand" id="otg">OneTap Games</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav m-auto font-rubik" id="navlista">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#najprodavanije">Najprodavanije</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Specijalneponude">Specijalne Ponude</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#NoveIgrice">Nove Igrice</a>
+                    </li>
+                    
+                  </ul>
+                  <form action="#" class="font-size-14 font-rale">
+                    <button type="mybutton" id="nocni" onclick="prvafunkcija()">Noćni režim</button>
+                    
+                      <a href="#Korpa" class="py-2 rounded-pill color-primary-bg">
+                        <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                       
+                      </a>
+                  </form>
+                </div>
+              </nav>
+              
+
+               <!-- Kraj navigacije -->
+
+        </header>
+    <!-- Kraj Headera -->
+
+    <!-- Pocetak main dela sajta-->
+        <main id="main-site">
+
+          <!-- Carousel stranice -->
+            <section id="banner-area">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="carogw2.jpeg" alt="Prvi Banner">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="caroHitman.jpeg" alt="Drugi Banner">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="carorainbow.jpeg" alt="Treci Banner">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+            </section>
+          <!-- Kraj carousela -->
+
+          <!-- Sekcija Najprodavanije -->
+          <section id="najprodavanije">
+          	
+
+            <div class="container py-5">
+            	<br><br><br>
+              <h4 class="font-rubik font-size-20">Najprodavanije</h4>
+              <hr>
+              
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <a href="#"><img src="apexlegends.jpg" alt="APEXLEGENDS" class="img-fluid shop-item-image"></a>
+                      <div class="text-center">
+                        <h6 class="shop-item-title">Apex Legends</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span class="cena shop-item-price">2600RSD</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Dodaj u korpu!</button>
+                      </div>
+                    </div>
+
+                    
+                  
+                  <div class="col">
+                    <div class="product font-rale">
+                      <a href="#"><img src="cyberpunk2077.png" alt="CYBERPUNK2077" class="img-fluid shop-item-image"></a>
+                      <div class="text-center">
+                        <h6 class="shop-item-title">Cyberpunk2077</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span class="cena shop-item-price">7500RSD</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Dodaj u korpu!</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="product font-rale">
+                      <a href="#"><img src="fallguys.jpg" alt="FALLGUYS" class="img-fluid shop-item-image"></a>
+                      <div class="text-center">
+                        <h6 class="shop-item-title">Fall Guys</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span class="cena shop-item-price">2200RSD</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Dodaj u korpu!</button>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  
+                  	<div class="container">
+                  <div class="row">
+                    <div class="col">
+                    	<div class="item py-2">
+                      <a href="#"><img src="ghost.jpg" alt="Ghost Of Tsushima" class="img-fluid shop-item-image"></a>
+                      <div class="text-center">
+                        <h6 class="shop-item-title">Ghost of Tsushima</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span class="cena shop-item-price">5000RSD</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Dodaj u korpu!</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="csgo.jpg" class="img-fluid shop-item-image" alt="Doom"></a>
+                        <div class="text-center">
+                          <h6 class="shop-item-title">Counter Strike:Global Offensive</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span class="cena shop-item-price">1900RSD</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Dodaj u korpu!</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col">
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="doom.jpg" class="img-fluid shop-item-image" alt="Doom"></a>
+                        <div class="text-center">
+                          <h6 class="shop-item-title">Doom Eternal</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span class="cena shop-item-price">4000RSD</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Dodaj u korpu!</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+            </div>
+          </section>
+        <!-- Kraj sekcije najprodavanije -->
+
+        <!-- Sekcija Specijalne Ponude -->
+          <section id="Specijalneponude">
+            <div class="container">
+            	<br><br><br>
+              <h4 class="font-rubik font-size-20">Specijalne Ponude</h4>
+              <hr>
+              
+
+              <div class="grid">
+                <div class="row">
+                	<div class="col shop-item">
+                      <a href="#"><img src="mk11.jpg" alt="APEXLEGENDS" class="img-fluid shop-item-image"></a>
+                      <div class="text-center">
+                        <h6 class="shop-item-title">Mortal Kombat 11</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span class="cena shop-item-price"><s>4000RSD</s></span><br>
+                          <span class="cena shop-item-price">4000RSD</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Dodaj u korpu!</button>
+                      </div>
+                    </div>
+                <div class="col shop-item">
+                      <a href="#"><img src="rainbow6.jpg" alt="RAINBOW 6 SIEGE" class="img-fluid shop-item-image"></a>
+                      <div class="text-center">
+                        <h6 class="shop-item-title">Rainbow Six Siege</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span class="cena shop-item-price"><s>3000RSD</s></span><br>
+                          <span class="cena shop-item-price">2200RSD</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Dodaj u korpu!</button>
+                      </div>
+                    </div>
+                 <div class="col shop-item">
+                      <a href="#"><img src="eft.png" alt="ESCAPE FROM TARKOV" class="img-fluid shop-item-image"></a>
+                      <div class="text-center">
+                        <h6 class="shop-item-title">Escape From Tarkov</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span class="cena shop-item-price"><s>3500RSD</s></span><br>
+                          <span class="cena shop-item-price">2000RSD</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Dodaj u korpu!</button>
+                      </div>
+                    </div>
+                <div class="col shop-item">
+                      <a href="#"><img src="assasinscreed.jpg" alt="ASSASINS CREED" class="img-fluid shop-item-image"></a>
+                      <div class="text-center">
+                        <h6 class="shop-item-title">Assasins Creed: Valhalla</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span class="cena shop-item-price"><s>4500RSD</s></span><br>
+                          <span class="cena shop-item-price">3500RSD</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Dodaj u korpu!</button>
+                      </div>
+                    </div>
+             </div>
+             <!-- Sad ide sa 8 cols i 4 cols-->
+                 <div class="row">
+                 	<div class="col-12 col-md-6  ">
+                  <div class="item py-2" style="width: 500px;">
+                   <div class="product font-rale">
+                     <a href="#"><img src="carogw2.jpeg" alt="Guild Wars 2" class="img-fluid shop-item-image"></a>
+                     <div class="text-center">
+                       <h6 class="shop-item-title">Guild Wars 2</h6>
+                       <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                       </div>
+                       <div class="price py-2">
+                        <span class="akcija"><s>8000RSD</s></span><br>
+                         <span class="cena shop-item-price">6500RSD</span>
+                       </div>
+                       <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Dodaj Bundle u korpu!</button>
+                     </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="col-12 col-md-6  ">
+                  <div class="item py-2" style="width: 500px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="caroHitman.jpeg" class="img-fluid shop-item-image" alt="Hitman"></a>
+                        <div class="text-center">
+                          <h6 class="shop-item-title">Hitman 3</h6>
+                          
+                          <div class="price py-2">
+                            <span class="cena shop-item-price">6000RSD</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Pre-Order sada!</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+                 <!-- Kraj Specijalnih ponuda -->
+
+        
+
+          <!-- Nove Igrice -->
+          <section id="NoveIgrice">
+            <div class="container">
+            	<br><br><br>
+              <h4 class="font-rubik font-size-20">Nove Igrice</h4>
+              <hr>
+
+                    
+                    <div class="row">
+                    	<div class="col">
+                      <div class="item py-2">
+                        
+                          <a href="#"><img src="horizonzd.jpg" alt="Horizon Zero: Dawn" class="img-fluid shop-item-image"></a>
+                          <div class="text-center">
+                            <h6 class="shop-item-title">Horizon Zero: Dawn</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span class="cena shop-item-price">5000RSD</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Dodaj u korpu!</button>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col">
+                      <div class="item py-2">
+                       
+                          <a href="#"><img src="thedivision2.jpg" alt="The Division 2" class="img-fluid shop-item-image"></a>
+                          <div class="text-center">
+                            <h6 class="shop-item-title">The Division 2</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span class="cena shop-item-price">3500RSD</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Dodaj u korpu!</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                      <div class="item py-2">
+                        
+                          <a href="#"><img src="deathstranding.jpg" alt="Death Stranding" class="img-fluid shop-item-image"></a>
+                          <div class="text-center">
+                            <h6 class="shop-item-title">Death Stranding</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span class="cena shop-item-price">5000RSD</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Dodaj u korpu!</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                      <div class="item py-2">
+                        
+                          <a href="#"><img src="wowshadowlands.jpg" alt="WOW Shadowlands" class="img-fluid shop-item-image"></a>
+                          <div class="text-center">
+                            <h6 class="shop-item-title">World Of Warcraft: Shadowlands</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span class="cena shop-item-price">3500RSD</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Dodaj u korpu!</button>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                      <div class="row">
+                      	<div class="col">
+                      <div class="item py-2">
+                        
+                          <a href="#"><img src="thewitcher3.jpg" alt="product1" class="img-fluid shop-item-image"></a>
+                          <div class="text-center">
+                            <h6 class="shop-item-title">The Witcher 3: Wild Hunt</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span class="cena shop-item-price">5000RSD</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Dodaj u korpu!</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                      <div class="item py-2">
+                        
+                          <div class="d-flex flex-column">
+                            <a href="#"><img src="valorant.jpg" class="img-fluid shop-item-image" alt="Valorant"></a>
+                            <div class="text-center">
+                              <h6 class="shop-item-title">Valorant</h6>
+                              <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                              </div>
+                              <div class="price py-2">
+                                <span class="cena shop-item-price">2500RSD</span>
+                              </div>
+                              <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Dodaj u korpu!</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                      <div class="item py-2">
+                       
+                          <div class="d-flex flex-column">
+                            <a href="#"><img src="pubg.jpg" class="img-fluid shop-item-image" alt="PUBG"></a>
+                            <div class="text-center">
+                              <h6 class="shop-item-title">Player Unknown's Battlegrounds</h6>
+                              <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                              </div>
+                              <div class="price py-2">
+                                <span class="cena shop-item-price">3000RSD</span>
+                              </div>
+                              <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Dodaj u korpu!</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    
+                    <div class="col">
+                      <div class="item py-2">
+                       
+                          <div class="d-flex flex-column">
+                            <a href="#"><img src="farcry6.jpg" class="img-fluid shop-item-image" alt="Far Cry 6"></a>
+                            <div class="text-center">
+                              <h6 class="shop-item-title">Far Cry 6</h6>
+                              <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                              </div>
+                              <div class="price py-2">
+                                <span class="cena shop-item-price">6000RSD</span>
+                              </div>
+                              <button type="submit" class="btn btn-warning font-size-12 btn btn-primary shop-item-button">Dodaj u korpu!</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  
+
+            </div>
+          </section>
+          <!-- Kraj Novih Igrica -->
+
+          
+
+        </main>
+    <!-- Kraj main dela -->
+
+        <section class="container content-section" id="Korpa">
+            <h2 class="section-header" id="naslovkorpe">Korpa</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">Artikal</span>
+                <span class="cart-price cart-header cart-column" id="kartcena">Cena</span>
+                <span class="cart-quantity cart-header cart-column">Kolicina</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Suma</strong>
+                <span class="cart-total-price">RSD 0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button" id="btnkupi"><a href="Podaci.php" id="kupuj">Kupi</a></button>
+        </section>
+    <!-- Pocetak footera -->
+
+        <footer id="footer" class="bg-dark text-white py-5">
+        	 <div class="container">
+        	 	 <div class="row">
+        	<!-- I frame za kursnu listu -->
+        	<div class="col">
+        	<iframe src="https://kursna-lista.com/gedzeti/gadget2white.php" frameborder="0" height="330" scrolling="no" width="210"></iframe>
+        	</div>
+         
+           
+              <div class="col">
+               <div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=savski%20nasip%209%20beograd&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:400px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:400px;}</style></div>
+              </div>
+              <div class="col">
+                
+                
+                    
+                    <button type="submit" id="btnkontaktiraj"><a href="Kontaktforma.php" id="konlink">Kontaktirajte nas</a></button><br>
+                    <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+					<a href="https://twitter.com/explore" class="fa fa-twitter"></a>
+					<a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+					<a href="https://www.youtube.com/?hl=sr&gl=RS" class="fa fa-youtube"></a>
+					<a href="https://rs.linkedin.com" class="fa fa-linkedin"></a>
+                  </div>
+                </form>
+              </div>
+              
+              
+            </div>
+          </div>
+        </footer>
+        <div class="copyright text-center bg-dark text-white py-2">
+          <p class="font-rale font-size-14">&copy; Sajt Kreirao i Dizajnirao Nikola Mihajlovic 12/16</p>
+        </div>
+
+    <!--Kraj Footera-->
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+
+    <!--Js fajl-->
+    <script src="skript.js"></script>
+</body>
+</html>
